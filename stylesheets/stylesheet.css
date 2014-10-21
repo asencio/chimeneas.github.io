@@ -156,7 +156,9 @@ p img {
   text-align: center;
   border: none;
 }
-
+#img_logo {
+    padding: 1em;
+}
 pre, code {
   width: 100%;
   color: #222;
@@ -265,7 +267,7 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 20px 10px;
+  padding: 20px 0; /*10px;*/
   margin: 0 auto;
 }
 
@@ -294,7 +296,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 10px;/*50px 10px 30px 10px;*/
 }
 
 #project_title {
@@ -359,11 +361,27 @@ Full-Width Styles
 }
 
 #main_content {
-  padding-top: 40px;
+  padding: 0px; /*40px;*/
+  max-width: 100%;
+}
+#imgPortada {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+#distExc {
+    position: relative;
+    top: -30em;
+    margin: 0 16em;
+    color: #fff;
+    height: 0;
 }
 
 #footer_wrap {
   background: #212121;
+  position: relative;
+  top: -0.5em;
 }
 
 
