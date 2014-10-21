@@ -372,10 +372,16 @@ Full-Width Styles
 }
 #distExc {
     position: relative;
-    top: -30em;
-    margin: 0 16em;
-    color: #fff;
+    top: 3em;
+    margin: 0 auto;
     height: 0;
+    z-index: 1;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 300;
+    background: none repeat scroll 0% 0% transparent;
+    text-shadow: 0px 0px 10px #111;
+    max-width: 640px;
 }
 
 #footer_wrap {
